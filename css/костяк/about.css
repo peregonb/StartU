@@ -1,0 +1,33 @@
+body {
+  padding-top: 0px;
+  padding-bottom: 0px;
+  background-attachment: fixed;
+  font-size: 13px; }
+
+.navbar {
+  z-index: 1000;
+  border-width: 0 0 1px; }
+
+.navbar-default {
+  box-shadow: 0.071cm 0.122cm 0.35278cm 0cm rgba(0, 0, 0, 0.5);
+  position: fixed;
+  top: 0%;
+  left: 0%;
+  right: 0%; }
+
+ul.nav.navbar-nav.navbar-right {
+  font-family: "IntroRegular"; }
+
+.navbar-default .navbar-nav > li > a {
+  color: #19346f; }
+
+.header-color *::-moz-selection {
+  background-color: #00b9f7;
+  color: #ffffff; }
+
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+  color: #00add5;
+  background-color: transparent; }
+
+/*# sourceMappingURL=about.css.map */

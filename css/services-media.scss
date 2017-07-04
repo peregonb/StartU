@@ -1,0 +1,145 @@
+@media (min-width: 768px) {
+
+.uppercase_col {
+    line-height: 1;
+    display: inline-block;
+    color:#c0c0c0;
+    text-decoration:none;
+    cursor: pointer;
+}
+.uppercase_col:after {
+    display: block;
+    content: ""; 
+    height: 2px;
+    width: 0%;
+    margin-top:-45px;
+    background-color: #c0c0c0;
+   -webkit-transition: top 1s ease-out 0.5s;
+     -moz-transition: top 1s ease-out 0.5s;
+     -o-transition: top 1s ease-out 0.5s;
+     transition: top 1s ease-out 0.5s;
+}
+.uppercase_col:hover:after,
+.uppercase_col:focus:after {
+    width: 100%; 
+}
+.uppercase_sel {
+    line-height: 1;
+    display: inline-block;
+    color:#c0c0c0;
+    text-decoration:none;
+    cursor: pointer;
+}
+.uppercase_sel:after {
+    display: block;
+    content: ""; 
+    height: 2px;
+    width: 100%;
+    margin-top:-45px;
+    background-color: #00b9f7;
+   -webkit-transition: top 1s ease-out 0.5s;
+     -moz-transition: top 1s ease-out 0.5s;
+     -o-transition: top 1s ease-out 0.5s;
+     transition: top 1s ease-out 0.5s;
+}
+.uppercase_col:hover:after,
+.uppercase_col:focus:after {
+    width: 100%; 
+}
+  img.navbrand{
+  	height: 61px;
+	padding-top: 3px;
+	padding-bottom: 3px; 
+	position: fixed;
+	left: 12%; 
+  }
+.navbar-right {
+    float: right !important;
+    margin-right: -15px;
+    position: fixed;
+    right: 15%;
+    margin-top: 10px;
+}
+.navbar-nav > li{
+	margin-right: 10px;
+}
+
+
+
+}
+
+@media (max-width: 768px) {
+img.navbrand {
+    height: 42px;
+    padding-top: 5px;
+    width: 72px;
+    position: fixed;
+    left: 3.5%;
+}
+
+.uppercase_col:hover {
+   border-left: 2px solid;
+  display: block;
+  border-color: #c0c0c0; 
+   
+}
+.uppercase_sel {
+    border-left: 2px solid;
+    display: block;
+    border-color: #00b9f7;
+    cursor: pointer;
+    margin-bottom: 5px;
+}
+
+.uppercase_col {
+  margin-bottom: 5px;
+}
+.uppercase_col:first-child{
+    margin-top: 5px;
+}
+
+}
+
+
+@media (min-width: 992px) {
+	.container {
+    width: 970px;
+    height: 67px;
+}
+  
+  }
+
+@media (max-width: 992px) {
+
+	img.navbrand {
+   height: 42px;
+	padding-top: 5px;
+	width: 72px;
+	padding-bottom: 0px;
+	position: fixed;
+	left:5%; 
+}
+ .navbar-nav {
+    margin: 0;
+  }
+.navbar-right {
+  
+    margin-right: -15px;
+    
+    right: 5%;
+}
+	}
+
+
+@media (min-width: 1200px) {
+  
+
+}
+
+
+@media (max-width : 480px) {
+ 
+
+
+}
+

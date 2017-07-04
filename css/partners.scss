@@ -1,0 +1,140 @@
+ body {
+ 	padding-top: 0px;
+ 	padding-bottom: 0px;
+ 	
+	background-attachment: fixed ;
+	font-size: 13px; 
+ 	}
+
+  
+
+.navbar{
+ 		z-index: 1000;
+border-width: 0 0 1px;
+ 	}
+.navbar-default{
+	box-shadow: 0.071cm 0.122cm 0.35277777777778cm 0cm rgba( 0, 0, 0, 0.5);
+	position: relative;
+	top: 0%;
+    left: 0%;
+    right: 0%;  
+		
+}
+ul.nav.navbar-nav.navbar-right{
+	font-family: "IntroRegular";
+	
+}
+.navbar-default .navbar-nav > li > a {
+    color: #19346f;
+}
+.header-color *::-moz-selection {
+    background-color: #00b9f7;
+    color: #ffffff;
+}
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+  color: #00add5;
+  background-color: transparent;
+}
+
+
+ html { overflow:  hidden; }
+
+body.partners
+{
+    background-image:url(../img/partners-bg.png);
+    background-position: bottom center;
+    background-repeat: no-repeat;
+    background-attachment: relative;
+}
+
+body.partners .grid-block
+{
+    
+    margin: 0 auto;
+  border-style: solid;
+  border-width: 0.03527777777778cm;
+  border-color: rgb( 225, 232, 235 );
+  border-radius: 0.106cm;
+  background-color: rgb( 255, 255, 255 );
+-webkit-transition: all 0.3s ease 0s;
+-o-transition: all 0.3s ease 0s;
+transition: all 0.3s ease 0s;
+background-image: url(../img/0.png);
+background-position: bottom;
+background-repeat: repeat-x;
+padding-left: 3%;
+padding-right: 2%;
+
+}
+body.partners .col-elem
+{
+    margin-bottom: 15px;
+}
+body.partners .grid-block:hover
+{
+-webkit-box-shadow: 0px 3px 18px 0px rgba(0,0,0,0.3);
+-moz-box-shadow: 0px 3px 18px 0px rgba(0,0,0,0.3);
+box-shadow: 0px 3px 18px 0px rgba(0,0,0,0.3);
+}
+
+body.partners .grid-block h2
+{
+    font-size: 12pt;
+    line-height: 16pt;
+    margin-top:0;
+    width:100%;
+    margin-bottom: 0;
+    text-align: center;
+    color:#273a71;
+    font-weight: bold;
+    text-transform: uppercase;
+    display: table;
+    height: 42px;
+    text-align: center;
+}
+
+body.partners .grid-block h2 span {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+body.partners .grid-block .separator
+{
+    width: 30%;
+    margin: 5px auto;
+    height:1px;
+    background: #cbcbcb;
+}
+
+
+body.partners .grid-block img
+{
+    margin: 10px auto;
+    display: table;
+    height:64px;
+}
+
+body.partners .grid-block p
+{
+    font-size: 10pt;
+    text-align: center;
+}
+
+/* Костыль, исправляющий выравнивание блоков сетки 50%:50% в Bootstrap */
+@media (min-width: 768px) and (max-width: 992px){
+    .row .col-sm-6
+    {
+        width:49.5%;
+        display: inline-block;
+        float:none;
+    }
+}
+
+.partners-viewport{
+position: relative;
+top: 15%;
+bottom: 5%;
+left: 0;
+right: 0;
+}

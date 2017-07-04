@@ -1,0 +1,101 @@
+body {
+  padding-top: 0px;
+  padding-bottom: 0px;
+  background-attachment: fixed;
+  font-size: 13px; }
+
+.navbar {
+  z-index: 1000;
+  border-width: 0 0 1px; }
+
+.navbar-default {
+  box-shadow: 0.071cm 0.122cm 0.35278cm 0cm rgba(0, 0, 0, 0.5);
+  position: fixed;
+  top: 0%;
+  left: 0%;
+  right: 0%; }
+
+ul.nav.navbar-nav.navbar-right {
+  font-family: "IntroRegular"; }
+
+.navbar-default .navbar-nav > li > a {
+  color: #19346f; }
+
+.header-color *::-moz-selection {
+  background-color: #00b9f7;
+  color: #ffffff; }
+
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+  color: #00add5;
+  background-color: transparent; }
+
+html {
+  overflow: hidden; }
+
+body.services {
+  background: url(../img/srv-bg.jpg) top left no-repeat;
+  background-position-y: 76px;
+  overflow-y: hidden; }
+
+@media (max-width: 768px) {
+  body.services {
+    background-size: auto; } }
+body.services .squares .sq {
+  background-color: rgba(255, 255, 255, 0.93);
+  height: 120px;
+  float: left;
+  width: 30%;
+  color: #24a0e8;
+  box-shadow: 0cm 0cm 0.24694cm 0cm #a7a7a7;
+  margin-right: 5%; }
+
+body.services .squares .sq div {
+  height: 100%;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-position-y: 25px;
+  background-size: 18% auto;
+  transform: rotate(45deg);
+  text-align: center; }
+
+body.services .squares .sq span {
+  position: fixed;
+  text-transform: uppercase;
+  font-size: 7.75pt;
+  top: 62px;
+  left: 22px; }
+
+body.services .squares .sq.orange {
+  background-color: rgba(253, 193, 47, 0.93);
+  color: white; }
+
+body.services .squares .sq:last-child {
+  margin-right: 0; }
+
+body.services .squares {
+  width: 390px;
+  transform: rotate(-45deg);
+  position: relative;
+  margin: 0 auto; }
+
+body.services .squares.first {
+  top: 112px; }
+
+body.services .squares.second {
+  top: 180px; }
+
+body {
+  position: fixed;
+  top: 0%;
+  bottom: 0%; }
+
+.services-viewport {
+  position: fixed;
+  top: 15%;
+  left: 10%;
+  right: 10%;
+  bottom: 5%; }
+
+/*# sourceMappingURL=services.css.map */
